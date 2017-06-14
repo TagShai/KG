@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/draw_obj_2d"
+        android:title="Выбрать OBJ" />
+    <item android:title="Примитивы">
+        <menu>
+            <item
+                android:id="@+id/draw_circle_dda"
+                android:title="Круг DDA" />
+            <item
+                android:id="@+id/draw_circle_brh"
+                android:title="Круг BRH" />
+            <item
+                android:id="@+id/draw_line_dda"
+                android:title="Линия DDA" />
+            <item
+                android:id="@+id/draw_line_brh"
+                android:title="Линия BRH" />
+            <item
+                android:id="@+id/draw_polygon"
+                android:title="Многоугольник" />
+            <item
+                android:id="@+id/draw_rect"
+                android:title="Прямоугольник" />
+        </menu>
+    </item>
+    <item android:title="Кривые">
+        <menu>
+            <item
+                android:id="@+id/draw_b_spline"
+                android:title="B-сплайн" />
+            <item
+                android:id="@+id/draw_nurbs_spline"
+                android:title="NURBS-сплайн" />
+            <item
+                android:id="@+id/draw_line_ermit"
+                android:title="Кривая Эрмита" />
+            <item
+                android:id="@+id/draw_line_bezier"
+                android:title="Кривая Безье" />
+        </menu>
+    </item>
+    <item android:title="Сглаживание">
+        <menu>
+            <item
+                android:id="@+id/draw_line_vy"
+                android:title="Ву" />
+            <item
+                android:id="@+id/draw_line_select"
+                android:title="Выборка" />
+            <item
+                android:id="@+id/draw_line_area"
+                android:title="Площадь" />
+        </menu>
+    </item>
+    <item android:title="Закраска">
+        <menu>
+            <item
+                android:id="@+id/fill_rect"
+                android:title="Прямоугольник" />
+            <item
+                android:id="@+id/fill_circle"
+                android:title="Круг" />
+            <item
+                android:id="@+id/fill_polygon"
+                android:title="Многоугольник" />
+            <item
+                android:id="@+id/fill_triangle"
+                android:title="Треугольник" />
+            <item
+                android:id="@+id/fill_seed"
+                android:title="Затравочный" />
+        </menu>
+    </item>
+</menu>

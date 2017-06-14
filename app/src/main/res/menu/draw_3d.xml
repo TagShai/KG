@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Фигуры">
+        <menu>
+            <item
+                android:id="@+id/select_3d_obj"
+                android:title="OBJ" />
+            <item android:title="Генерация">
+                <menu>
+                    <item
+                        android:id="@+id/select_3d_gen_graf1"
+                        android:title="График 1" />
+                    <item
+                        android:id="@+id/select_3d_gen_graf2"
+                        android:title="График 2" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/transform_3d_move"
+        android:title="Перенос" />
+    <item
+        android:id="@+id/transform_3d_scale"
+        android:title="Масштабирование" />
+    <item
+        android:id="@+id/transform_3d_rotate"
+        android:title="Поворот" >
+        <menu>
+            <item
+                android:id="@+id/transform_3d_rotate_ox"
+                android:title="Ox" />
+            <item
+                android:id="@+id/transform_3d_rotate_oy"
+                android:title="Oy" />
+            <item
+                android:id="@+id/transform_3d_rotate_oz"
+                android:title="Oz" />
+        </menu>
+    </item>
+    <item
+        android:title="Режимы" >
+        <menu>
+            <item
+                android:id="@+id/transform_3d_mode_standart"
+                android:title="Стандартный" />
+            <item
+                android:id="@+id/transform_3d_mode_z_buffer"
+                android:title="Z-Buffer" />
+            <item
+                android:id="@+id/transform_3d_mode_z_buffer_out"
+                android:title="Z-Buffer Out" />
+            <item
+                android:id="@+id/transform_3d_mode_horizont"
+                android:title="Плавающий горизонт" />
+        </menu>
+    </item>
+    <item
+        android:title="Отражение" >
+        <menu>
+            <item
+                android:id="@+id/transform_3d_refl_oxy"
+                android:title="Oxy" />
+            <item
+                android:id="@+id/transform_3d_refl_oyz"
+                android:title="Oyz" />
+            <item
+                android:id="@+id/transform_3d_refl_oxz"
+                android:title="Oxz" />
+        </menu>
+    </item>
+    <item
+        android:title="Проекции" >
+        <menu>
+            <item
+                android:id="@+id/transform_3d_projection_orto"
+                android:title="Ортогональная" />
+            <item
+                android:id="@+id/transform_3d_projection_rect_ax"
+                android:title="Прямоуг. акс." />
+            <item
+                android:id="@+id/transform_3d_projection_obliq_ax"
+                android:title="Косоуг. акс." />
+            <item
+                android:id="@+id/transform_3d_projection_center"
+                android:title="Центральная" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/transform_3d_reset"
+        android:title="Очистить" />
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Коэна-Сазерленда">
+        <menu>
+            <item
+                android:id="@+id/add_line_obj_koen"
+                android:title="Добавить линии из OBJ" />
+            <item
+                android:id="@+id/edit_line_koen"
+                android:title="Изменить линии" />
+            <item
+                android:id="@+id/edit_window_koen"
+                android:title="Изменить окно" />
+            <item
+                android:id="@+id/run_koen"
+                android:title="Вкл" />
+        </menu>
+    </item>
+    <item android:title="Сазерленда-Хогдмана">
+        <menu>
+            <item
+                android:id="@+id/add_line_obj_sh"
+                android:title="Добавить полигоны из OBJ" />
+            <item
+                android:id="@+id/add_polygon_sh"
+                android:title="Новый многоугольник" />
+            <item
+                android:id="@+id/edit_line_sh"
+                android:title="Изменить линии" />
+            <item
+                android:id="@+id/edit_window_sh"
+                android:title="Изменить окно" />
+            <item
+                android:id="@+id/run_sh"
+                android:title="Вкл" />
+        </menu>
+    </item>
+    <item android:title="Вейлера-Азертона">
+        <menu>
+            <item
+                android:id="@+id/add_line_obj_va"
+                android:title="Добавить полигоны из OBJ" />
+            <item
+                android:id="@+id/add_polygon_va"
+                android:title="Новый многоугольник" />
+            <item
+                android:id="@+id/edit_line_va"
+                android:title="Изменить линии" />
+            <item
+                android:id="@+id/edit_window_va"
+                android:title="Изменение окна" />
+            <item
+                android:id="@+id/add_point_window_va"
+                android:title="Добавление точек в окно" />
+            <item
+                android:id="@+id/run_va"
+                android:title="Вкл" />
+        </menu>
+    </item>
+</menu>

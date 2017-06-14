@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Алгебраические" >
+        <menu>
+            <item
+                android:id="@+id/fractal_tree_pifagor"
+                android:title="Дерево Пифагора" />
+            <item
+                android:id="@+id/fractal_dragon"
+                android:title="Дракон" />
+        </menu>
+    </item>
+    <item
+        android:title="Геометрические" >
+        <menu>
+            <item
+                android:id="@+id/fractal_mandelbrot"
+                android:title="Множество мандельброта" />
+        </menu>
+    </item>
+    <item
+        android:title="Стохастические" >
+        <menu>
+            <item
+                android:id="@+id/fractal_plasma"
+                android:title="Плазма" />
+        </menu>
+    </item>
+    <item
+        android:title="Система итер. функций" >
+        <menu>
+            <item
+                android:id="@+id/fractal_fern"
+                android:title="Лист" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/transform_2d_move"
+        android:title="Перенос" />
+    <item
+        android:id="@+id/transform_2d_scale"
+        android:title="Масштабирование" />
+    <item
+        android:id="@+id/transform_2d_rotate"
+        android:title="Поворот" />
+    <item
+            android:id="@+id/transform_2d_refl"
+        android:title="Отражение" />
+</menu>

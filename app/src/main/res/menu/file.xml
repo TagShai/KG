@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/draw_obj_rgb"
+        android:title="Отрисовать .OBJ Разноцвет" />
+    <item
+        android:id="@+id/draw_obj_color"
+        android:title="Отрисовать .OBJ Одинаковым" />
+    <item
+    android:id="@+id/draw_obj_dda"
+    android:title="Отрисовать .OBJ DDA" />
+    <item
+        android:id="@+id/draw_obj_brh"
+        android:title="Отрисовать .OBJ BRH" />
+    <item
+        android:id="@+id/open_file"
+        android:title="Считать с .BMP" />
+    <item
+        android:id="@+id/save_file"
+        android:title="Записать в .BMP" />
+
+</menu>
